@@ -9,5 +9,5 @@ def client():
 
 def test_hello_world(client):
     rv = client.get('/')
-    assert rv.data == b'Welcome tothe Flask App!'
+    assert rv.data == b'Welcome to the Flask App!'
 
