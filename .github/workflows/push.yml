@@ -29,3 +29,4 @@ jobs:
             askhalil93lab/flask-test:latest
             askhalil93lab/flask-test:${{ github.sha }}
           cache-from: askhalil93lab/flask-test:latest
+          cache-to: type=inline
